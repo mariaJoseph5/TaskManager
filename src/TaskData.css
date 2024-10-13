@@ -1,0 +1,84 @@
+.main-data{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    font-size: x-large;
+    flex-basis: 100%;
+    font-family: sans-serif;
+    color: maroon;
+}
+.card-wrapper{
+    display: flex;
+    padding:20px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 100%;
+    width: 100%;
+}
+.card-item{
+    display: flex;
+    box-shadow: 2px 2px 0 4px;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px 30px;
+    box-shadow: 2px 2px 0 4px;
+    border: 1px solid black;
+    background-color: coral;
+    color:black;
+    height: 33%;
+    align-items: center;
+    width: 24%;
+}
+.active{
+    background-color: limegreen;
+}
+.small-button{
+    font-size: small;
+    display: flex;
+}
+button:hover{
+    color: green;
+}
+.add-button{
+    color:black;
+    width: 100%;
+    display: flex;
+    font-size: xx-large;
+    justify-self: flex-start;
+    align-items: center;
+    padding: 30px 20px;
+}
+.add-button button{
+    padding: 0 5px 0 20px;
+}
+.button-wrapper{
+    border-bottom: 1px solid darkblue;
+    display: flex;
+    align-items: center;
+}
+.button-wrapper:hover{
+   color:darkgreen;
+}
+.button-data{
+    margin:0;
+}
+.no-show{ 
+    display: none;
+}
+.no-data-container{
+    display: flex;
+    justify-content: center;
+    flex-basis: 100%;
+    font-size: larger;
+    color:lightgrey;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+}
+.size-icon{
+    size: 30px;
+}
